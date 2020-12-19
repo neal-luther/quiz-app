@@ -141,9 +141,10 @@ const store = {
     return `
       <li>
         <div class="answer-container">
+        <form>
         <input type="radio" name="answer" id="answer-${name}" data-answer="${answer}">
         <label for="answer-${name}"> ${answer}</label>
-       
+        </form>
         </div>
       </li>
     `;
